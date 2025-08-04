@@ -9,7 +9,7 @@ class _Animal {
     }
 }
 // _Cachorro é a Classe Filha de _Animal, para isso usamos o termo >>extends<<
-// A Classe Filha herda todos os >>métodos públicos e protegidos<< da Classe Pai
+// A Classe Filha herda todos os >>métodos públicos e protegidos<< da Classe Pai. Nós podemos redeclarar as propriedades >>públicas e protegidas<<
 class _Cachorro extends _Animal {
     public function mostrar() {
         return $this->segredo;
